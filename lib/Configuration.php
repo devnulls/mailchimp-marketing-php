@@ -63,6 +63,35 @@ class Configuration
     protected $tempFolderPath;
     protected $timeout = 120;
 
+    // API Client Properties
+    public AccountExportApi $accountExport;
+    public AccountExportsApi $accountExports;
+    public ActivityFeedApi $activityFeed;
+    public AuthorizedAppsApi $authorizedApps;
+    public AutomationsApi $automations;
+    public BatchWebhooksApi $batchWebhooks;
+    public BatchesApi $batches;
+    public CampaignFoldersApi $campaignFolders;
+    public CampaignsApi $campaigns;
+    public ConnectedSitesApi $connectedSites;
+    public ConversationsApi $conversations;
+    public CustomerJourneysApi $customerJourneys;
+    public EcommerceApi $ecommerce;
+    public FacebookAdsApi $facebookAds;
+    public FileManagerApi $fileManager;
+    public LandingPagesApi $landingPages;
+    public ListsApi $lists;
+    public PingApi $ping;
+    public ReportingApi $reporting;
+    public ReportsApi $reports;
+    public RootApi $root;
+    public SearchCampaignsApi $searchCampaigns;
+    public SearchMembersApi $searchMembers;
+    public SurveysApi $Surveys;
+    public TemplateFoldersApi $templateFolders;
+    public TemplatesApi $templates;
+    public VerifiedDomainsApi $verifiedDomains;
+
     public function __construct()
     {
         $this->tempFolderPath = sys_get_temp_dir();
